@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="242">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -140,17 +140,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.TestUser.testDuplicate">
+  <component name="RunManager" selected="PHPUnit.TestUser.testRegister">
     <configuration name="TestProducts.testDeleteProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testDeleteProduct" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="TestProducts.testInsertProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testInsertProduct" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestProducts.testUpdateProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testUpdateProduct" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="TestUser.testDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -161,13 +157,17 @@
       <TestRunner class="TestUser" file="$PROJECT_DIR$/test-case/TestUser.php" method="testLogin" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUser.testRegister" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestUser" file="$PROJECT_DIR$/test-case/TestUser.php" method="testRegister" scope="Method" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TestUser.testRegister" />
         <item itemvalue="PHPUnit.TestUser.testDuplicate" />
         <item itemvalue="PHPUnit.TestUser.testLogin" />
         <item itemvalue="PHPUnit.TestProducts.testDeleteProduct" />
         <item itemvalue="PHPUnit.TestProducts.testInsertProduct" />
-        <item itemvalue="PHPUnit.TestProducts.testUpdateProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +186,11 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
-      <workItem from="1554566597711" duration="1347000" />
+      <workItem from="1554566597711" duration="1379000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducts_testUpdateProduct - 2019.04.06 at 23h 12m 23s.xml">
-      <configuration name="TestProducts.testUpdateProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestProducts_testInsertProduct - 2019.04.06 at 23h 12m 53s.xml">
       <configuration name="TestProducts.testInsertProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -221,9 +218,12 @@
     <history-entry file="TestUser_testDuplicate - 2019.04.06 at 23h 25m 40s.xml">
       <configuration name="TestUser.testDuplicate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestUser_testDuplicate - 2019.04.06 at 23h 26m 00s.xml">
+      <configuration name="TestUser.testDuplicate" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9291000" />
+    <option name="totallyTimeSpent" value="9323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -293,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="242">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
         </state>
       </provider>
     </entry>

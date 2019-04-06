@@ -27,4 +27,16 @@ class TestUser extends PHPUnit_Framework_TestCase
 
         $this->assertTrue($user->checkDuplicate($username) == true); // true => trùng, false => chưa trùng
     }
+
+    public function testRegister(){
+        $username = "diemntb4"; //
+        $pass = "123456";
+        $name = "Diễm";
+        $email = "ntbdiem01@gmail.com";
+        $dob = "1994-04-04";
+        //$id, $username, $password, $name, $email, $dob, $permission
+        $user = new User(0, $username, $pass, $name, $email, $dob, 0);
+
+        $this->assertTrue($user->insert() > 0); // true => thành công, false => lỗi
+    }
 }
