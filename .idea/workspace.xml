@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -115,11 +112,6 @@
               <item name="kiemthutaka" type="b2602c69:ProjectViewProjectNode" />
               <item name="kiemthutaka" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kiemthutaka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kiemthutaka" type="462c0819:PsiDirectoryNode" />
-              <item name="test-case" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -195,14 +187,11 @@
       <workItem from="1554135999181" duration="3369000" />
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
-      <workItem from="1554555860062" duration="81000" />
+      <workItem from="1554555860062" duration="1184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 19h 25m 35s.xml">
-      <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 19h 26m 13s.xml">
       <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -230,20 +219,22 @@
     <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 19h 29m 46s.xml">
       <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestProducts_testCountAllProducts - 2019.04.06 at 20h 05m 43s.xml">
+      <configuration name="TestProducts.testCountAllProducts" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6841000" />
+    <option name="totallyTimeSpent" value="7944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,7 +242,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47957373" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.47957373" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -296,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
