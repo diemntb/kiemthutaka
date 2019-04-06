@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -172,14 +172,11 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
-      <workItem from="1554566597711" duration="437000" />
+      <workItem from="1554566597711" duration="474000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 19h 27m 45s.xml">
-      <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 19h 28m 00s.xml">
       <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -207,9 +204,12 @@
     <history-entry file="TestProducts_testFindProduct - 2019.04.06 at 23h 09m 50s.xml">
       <configuration name="TestProducts.testFindProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestProducts_testFindByPrice - 2019.04.06 at 23h 10m 39s.xml">
+      <configuration name="TestProducts.testFindByPrice" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8381000" />
+    <option name="totallyTimeSpent" value="8418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -273,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="259">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
         </state>
       </provider>
     </entry>

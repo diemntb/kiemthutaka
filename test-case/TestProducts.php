@@ -46,4 +46,22 @@ class TestProducts extends PHPUnit_Framework_TestCase
         $this->assertTrue(sizeof($result) >0); // true => tìm thấy, false không có
     }
 
+    public function testUpdateProduct(){
+        $params = [
+            'id' => 1,
+            'Price' => 10000,
+            'ProName' => 'Sen thơm',
+            'onsale' => 0,
+            'salesprice' => 50000,
+            'TinyDes' => '',
+            'FullDes' => 'Cập nhật sau',
+            'catId' => 1,
+            'Quantity' => 1500
+        ];
+
+        $result = Products::updateProduct($params);
+
+        $this->assertTrue($result == true); // true => thành công, false => lỗi
+    }
+
 }
