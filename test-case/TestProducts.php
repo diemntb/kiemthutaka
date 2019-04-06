@@ -81,4 +81,11 @@ class TestProducts extends PHPUnit_Framework_TestCase
         $this->assertTrue($result > 0);
 
     }
+
+    public function testDeleteProduct(){
+        $idDelete = 32; // vo DB lua id mun delete
+        $result = Products::delete($idDelete);
+
+        $this->assertTrue($result == true);
+    }
 }

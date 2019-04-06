@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="276">
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -172,17 +172,11 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
-      <workItem from="1554566597711" duration="567000" />
+      <workItem from="1554566597711" duration="621000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducts_testCountAllProducts - 2019.04.06 at 20h 05m 43s.xml">
-      <configuration name="TestProducts.testCountAllProducts" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="TestProducts_testCountProductsByBrand - 2019.04.06 at 23h 08m 05s.xml">
-      <configuration name="TestProducts.testCountProductsByBrand" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestProducts_testFindProduct - 2019.04.06 at 23h 09m 50s.xml">
       <configuration name="TestProducts.testFindProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -207,9 +201,15 @@
     <history-entry file="TestProducts_testUpdateProduct - 2019.04.06 at 23h 12m 23s.xml">
       <configuration name="TestProducts.testUpdateProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestProducts_testInsertProduct - 2019.04.06 at 23h 12m 53s.xml">
+      <configuration name="TestProducts.testInsertProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestProducts_testInsertProduct - 2019.04.06 at 23h 12m 57s.xml">
+      <configuration name="TestProducts.testInsertProduct" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8511000" />
+    <option name="totallyTimeSpent" value="8565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -273,8 +273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        <state relative-caret-position="276">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
         </state>
       </provider>
     </entry>
