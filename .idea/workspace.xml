@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test-case/TestUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/test-case/TestUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-case/TestOrder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test-case/TestOrder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -46,9 +56,9 @@
         <option value="$PROJECT_DIR$/test-case/TestDemo.php" />
         <option value="$PROJECT_DIR$/test-case/Entity/OrderDetail.php" />
         <option value="$PROJECT_DIR$/test-case/Entity/Order.php" />
-        <option value="$PROJECT_DIR$/test-case/TestOrder.php" />
         <option value="$PROJECT_DIR$/test-case/TestProducts.php" />
         <option value="$PROJECT_DIR$/test-case/TestUser.php" />
+        <option value="$PROJECT_DIR$/test-case/TestOrder.php" />
       </list>
     </option>
   </component>
@@ -140,13 +150,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.TestUser.testRegister">
-    <configuration name="TestProducts.testDeleteProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testDeleteProduct" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.TestOrder.testCountOrder">
+    <configuration name="TestOrder.testCountOrder" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestOrder" file="$PROJECT_DIR$/test-case/TestOrder.php" method="testCountOrder" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="TestProducts.testInsertProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testInsertProduct" scope="Method" />
+    <configuration name="TestProducts.testDeleteProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testDeleteProduct" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="TestUser.testDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -163,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TestOrder.testCountOrder" />
         <item itemvalue="PHPUnit.TestUser.testRegister" />
         <item itemvalue="PHPUnit.TestUser.testDuplicate" />
         <item itemvalue="PHPUnit.TestUser.testLogin" />
         <item itemvalue="PHPUnit.TestProducts.testDeleteProduct" />
-        <item itemvalue="PHPUnit.TestProducts.testInsertProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -186,23 +196,11 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
-      <workItem from="1554566597711" duration="1379000" />
+      <workItem from="1554566597711" duration="1504000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducts_testInsertProduct - 2019.04.06 at 23h 12m 53s.xml">
-      <configuration name="TestProducts.testInsertProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="TestProducts_testInsertProduct - 2019.04.06 at 23h 12m 57s.xml">
-      <configuration name="TestProducts.testInsertProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="TestProducts_testDeleteProduct - 2019.04.06 at 23h 14m 03s.xml">
-      <configuration name="TestProducts.testDeleteProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="TestProducts_testDeleteProduct - 2019.04.06 at 23h 14m 09s.xml">
-      <configuration name="TestProducts.testDeleteProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestProducts_testDeleteProduct - 2019.04.06 at 23h 14m 14s.xml">
       <configuration name="TestProducts.testDeleteProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -221,9 +219,21 @@
     <history-entry file="TestUser_testDuplicate - 2019.04.06 at 23h 26m 00s.xml">
       <configuration name="TestUser.testDuplicate" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestUser_testRegister - 2019.04.06 at 23h 26m 41s.xml">
+      <configuration name="TestUser.testRegister" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestUser_testRegister - 2019.04.06 at 23h 26m 44s.xml">
+      <configuration name="TestUser.testRegister" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 23h 28m 16s.xml">
+      <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestOrder_testCountOrder - 2019.04.06 at 23h 28m 23s.xml">
+      <configuration name="TestOrder.testCountOrder" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9323000" />
+    <option name="totallyTimeSpent" value="9448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -269,7 +279,6 @@
     <entry file="file://$PROJECT_DIR$/test-case/TestDemo.php" />
     <entry file="file://$PROJECT_DIR$/test-case/Entity/Products.php" />
     <entry file="file://$PROJECT_DIR$/test-case/Entity/Order.php" />
-    <entry file="file://$PROJECT_DIR$/test-case/TestOrder.php" />
     <entry file="file://$PROJECT_DIR$/test-case/DataProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -293,8 +302,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-case/TestOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>
