@@ -29,4 +29,12 @@ class TestProducts extends PHPUnit_Framework_TestCase
 //        $this->assertTrue(sizeof($product) == 0); /* Count Cat = 5*/
     }
 
+    public function testFindProduct(){
+        $search = "sen đá"; // true
+        $searchFail = "testing value"; // false
+        $result = Search::searchByName($search);
+
+        $this->assertTrue(sizeof($result) >0); // true => tìm thấy, false không có
+    }
+
 }
