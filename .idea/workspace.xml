@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-case/TestUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-case/TestUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/test-case/TestUser.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="140">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -141,13 +140,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.TestUser.testLogin">
+  <component name="RunManager" selected="PHPUnit.TestUser.testDuplicate">
     <configuration name="TestProducts.testDeleteProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testDeleteProduct" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestProducts.testFindByPrice" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testFindByPrice" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="TestProducts.testInsertProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -158,17 +153,21 @@
       <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testUpdateProduct" scope="Method" />
       <method v="2" />
     </configuration>
+    <configuration name="TestUser.testDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestUser" file="$PROJECT_DIR$/test-case/TestUser.php" method="testDuplicate" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestUser.testLogin" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestUser" file="$PROJECT_DIR$/test-case/TestUser.php" method="testLogin" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TestUser.testDuplicate" />
         <item itemvalue="PHPUnit.TestUser.testLogin" />
         <item itemvalue="PHPUnit.TestProducts.testDeleteProduct" />
         <item itemvalue="PHPUnit.TestProducts.testInsertProduct" />
         <item itemvalue="PHPUnit.TestProducts.testUpdateProduct" />
-        <item itemvalue="PHPUnit.TestProducts.testFindByPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -187,17 +186,11 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
-      <workItem from="1554566597711" duration="1270000" />
+      <workItem from="1554566597711" duration="1347000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProducts_testUpdateProduct - 2019.04.06 at 23h 12m 10s.xml">
-      <configuration name="TestProducts.testUpdateProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="TestProducts_testUpdateProduct - 2019.04.06 at 23h 12m 19s.xml">
-      <configuration name="TestProducts.testUpdateProduct" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestProducts_testUpdateProduct - 2019.04.06 at 23h 12m 23s.xml">
       <configuration name="TestProducts.testUpdateProduct" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -222,9 +215,15 @@
     <history-entry file="TestUser_testLogin - 2019.04.06 at 23h 24m 34s.xml">
       <configuration name="TestUser.testLogin" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestUser_testDuplicate - 2019.04.06 at 23h 25m 13s.xml">
+      <configuration name="TestUser.testDuplicate" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestUser_testDuplicate - 2019.04.06 at 23h 25m 40s.xml">
+      <configuration name="TestUser.testDuplicate" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9214000" />
+    <option name="totallyTimeSpent" value="9291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -294,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="140">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
         </state>
       </provider>
     </entry>
