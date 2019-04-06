@@ -64,4 +64,21 @@ class TestProducts extends PHPUnit_Framework_TestCase
         $this->assertTrue($result == true); // true => thành công, false => lỗi
     }
 
+    public function testInsertProduct(){
+        $param = [
+            'ProName' => 'Test Add Product',
+            'CatID' => 1,
+            'Price' => 10000,
+            'TinyDes' => '',
+            'FullDes' => 'TEST',
+            'Quantity' => 1000,
+            'onsale' => 1,
+            'salesprice' => 15000,
+        ];
+
+        $result = Products::saveProducts($param);
+
+        $this->assertTrue($result > 0);
+
+    }
 }
