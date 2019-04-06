@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="" />
+    <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/test-case/TestProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/test-case/TestProducts.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,29 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-case/DataProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="478">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -104,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +99,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.TestProducts.testCountAllProducts">
+  <component name="RunManager" selected="PHPUnit.TestProducts.testCountProductsByBrand">
     <configuration name="TestDemo" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="TestDemo" file="$PROJECT_DIR$/test-case/TestDemo.php" scope="Class" />
       <method v="2" />
@@ -155,8 +139,8 @@
       <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testCountAllProducts" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="TestUser.testDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="TestUser" file="$PROJECT_DIR$/test-case/TestUser.php" method="testDuplicate" scope="Method" />
+    <configuration name="TestProducts.testCountProductsByBrand" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="TestProducts" file="$PROJECT_DIR$/test-case/TestProducts.php" method="testCountProductsByBrand" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="TestUser.testRegister" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -165,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TestProducts.testCountProductsByBrand" />
         <item itemvalue="PHPUnit.TestProducts.testCountAllProducts" />
         <item itemvalue="PHPUnit.TestOrder.testCountOrder" />
         <item itemvalue="PHPUnit.TestDemo" />
         <item itemvalue="PHPUnit.TestUser.testRegister" />
-        <item itemvalue="PHPUnit.TestUser.testDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +172,7 @@
       <workItem from="1554549775616" duration="1750000" />
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
+      <workItem from="1554566597711" duration="249000" />
     </task>
     <servers />
   </component>
@@ -224,12 +209,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7944000" />
+    <option name="totallyTimeSpent" value="8193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2631579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,6 +257,13 @@
     <entry file="file://$PROJECT_DIR$/test-case/Entity/Products.php" />
     <entry file="file://$PROJECT_DIR$/test-case/Entity/Order.php" />
     <entry file="file://$PROJECT_DIR$/test-case/TestOrder.php" />
+    <entry file="file://$PROJECT_DIR$/test-case/DataProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -278,17 +271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-case/DataProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        <state relative-caret-position="478">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
