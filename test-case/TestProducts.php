@@ -37,4 +37,13 @@ class TestProducts extends PHPUnit_Framework_TestCase
         $this->assertTrue(sizeof($result) >0); // true => tìm thấy, false không có
     }
 
+    public function testFindByPrice(){
+        $name = "sen đá";
+        $searchFail = "testing value"; // false
+        $price = "100000";
+
+        $result = Search::SearchName($name, 0, $price);
+        $this->assertTrue(sizeof($result) >0); // true => tìm thấy, false không có
+    }
+
 }
