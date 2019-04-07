@@ -87,5 +87,7 @@ class TestProducts extends PHPUnit_Framework_TestCase
         $result = Products::delete($idDelete);
 
         $this->assertTrue($result == true);
+
+        
     }
 }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0032a8ba-a0eb-416a-9acb-d4e45dec4c23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test-case/TestOrder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-case/TestProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/test-case/TestProducts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="393">
+              <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -29,12 +28,12 @@
         <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-case/TestOrder.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -56,9 +55,9 @@
         <option value="$PROJECT_DIR$/test-case/TestDemo.php" />
         <option value="$PROJECT_DIR$/test-case/Entity/OrderDetail.php" />
         <option value="$PROJECT_DIR$/test-case/Entity/Order.php" />
-        <option value="$PROJECT_DIR$/test-case/TestProducts.php" />
         <option value="$PROJECT_DIR$/test-case/TestUser.php" />
         <option value="$PROJECT_DIR$/test-case/TestOrder.php" />
+        <option value="$PROJECT_DIR$/test-case/TestProducts.php" />
       </list>
     </option>
   </component>
@@ -197,6 +196,7 @@
       <workItem from="1554555445175" duration="238000" />
       <workItem from="1554555860062" duration="1184000" />
       <workItem from="1554566597711" duration="1504000" />
+      <workItem from="1554611499392" duration="391000" />
     </task>
     <servers />
   </component>
@@ -233,13 +233,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9448000" />
+    <option name="totallyTimeSpent" value="9839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2631579" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,17 +293,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-case/TestUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -311,6 +304,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-case/TestProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="90" column="8" selection-start-line="90" selection-start-column="8" selection-end-line="90" selection-end-column="8" />
         </state>
       </provider>
     </entry>
