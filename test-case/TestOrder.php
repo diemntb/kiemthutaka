@@ -8,4 +8,13 @@ class TestOrder extends PHPUnit_Framework_TestCase
         $orders = Order::loadAll();
         $this->assertTrue(sizeof($orders) == 6); //db 6 don hang
     }
+
+    public function testDeleteOrder(){
+        $idOrder = 129; //check db
+        $result = Order::delete($idOrder);
+
+        $this ->assertTrue($result==true); //true xoa thanh cong
+    }
+
+
 }
