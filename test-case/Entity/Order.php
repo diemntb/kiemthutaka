@@ -172,8 +172,14 @@ class Order {
     }
 
     public static function delete($id){
+
         $sql = "DELETE FROM orders where orderId = $id";
-        DataProvider::execQuery($sql);
-        return true;
+        $row = DataProvider::execQuery($sql);
+
+        if($row > 0)
+            return true;
+        else
+            return false;
+
     }
 }
