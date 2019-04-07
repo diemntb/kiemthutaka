@@ -24,5 +24,18 @@ class TestOrder extends PHPUnit_Framework_TestCase
         $this->assertTrue(sizeof($order) == 1);
     }
 
+    public function testUpdateOrder(){
+        $params = [
+            'id' => 134,
+            'status' => 1
+        ];
+
+        $result = Order::updateOrder($params);
+
+        $this->assertTrue($result == true); // true => thành công, false => lỗi
+    }
+
+
+
 
 }

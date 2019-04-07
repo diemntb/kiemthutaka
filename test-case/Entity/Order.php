@@ -163,11 +163,10 @@ class Order {
         return $ret;
     }
 
-    public static function updateOrder($id, $params){
-        $note = isset($params['note']) ? $params['note'] : '';
-        $status = isset($params['status']) ? $params['status'] : 0;
-        $sql = "update orders set note= '$note', status = $status where orderId = $id";
-        // var_dump($sql);die();
+    public static function updateOrder($params){
+        $id = $params['id'];
+        $status = $params['status'];
+        $sql = "update orders set status = $status where orderId = $id";
         DataProvider::execQuery($sql);
         return true;
     }
@@ -179,4 +178,6 @@ class Order {
         return true;
 
     }
+
+
 }
