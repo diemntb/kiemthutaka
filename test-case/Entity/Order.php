@@ -120,9 +120,10 @@ class Order {
     }
 
     public static function loadOrderbyId($id){
+        $ret = array();
         $sql = "select * from orders where orderID = $id";
         $list = DataProvider::execQuery($sql);
-        if ($row = mysqli_fetch_array($list)) {
+        while ($row = mysqli_fetch_array($list)) {
 
             $orderId = $row["orderId"];
             $orderDate = $row["orderDate"];
@@ -132,12 +133,12 @@ class Order {
             $sdt = $row["sdt"];
             $email = $row["email"];
             $status = $row["status"];
-            $note = $row["note"];
-            $p = new Order($orderId, $orderDate, $user, $total, $hoten, $sdt, $email, $status, $note);
-            return $p;
+            //$note = $row["note"];
+            $p = new Order($orderId, $orderDate, $user, $total, $hoten, $sdt, $email, $status);
+            array_push($ret, $p);
         }
 
-        return NULL;
+        return $ret;
     }
 
     public static function loadOrderDetail($id){

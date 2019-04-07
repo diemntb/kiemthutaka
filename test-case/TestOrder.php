@@ -16,5 +16,13 @@ class TestOrder extends PHPUnit_Framework_TestCase
         $this ->assertTrue($result==true); //true xoa thanh cong
     }
 
+    public function testCountOrderById(){
+
+        $search = 136;
+        $order = Order::loadOrderbyId($search);
+
+        $this->assertTrue(sizeof($order) == 1);
+    }
+
 
 }
