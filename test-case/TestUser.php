@@ -39,4 +39,6 @@ class TestUser extends PHPUnit_Framework_TestCase
 
         $this->assertTrue($user->insert() > 0); // true => thành công, false => lỗi
     }
+
+
 }
