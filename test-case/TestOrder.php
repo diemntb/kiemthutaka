@@ -10,7 +10,7 @@ class TestOrder extends PHPUnit_Framework_TestCase
     }
 
     public function testDeleteOrder(){
-        $idOrder = 129; //check db
+        $idOrder = 132; //check db
         $result = Order::delete($idOrder);
 
         $this ->assertTrue($result==true); //true xoa thanh cong
