@@ -104,7 +104,7 @@ class User {
         $list = DataProvider::execQuery($sql);
 
         while ($row = mysqli_fetch_array($list)) {
-            $id = $row["ID"];
+            $id = $row["Id"];
             $username = $row["Username"];
             $password = $row["Password"];
             $name = $row["Name"];
