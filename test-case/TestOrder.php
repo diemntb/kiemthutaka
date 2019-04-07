@@ -20,7 +20,6 @@ class TestOrder extends PHPUnit_Framework_TestCase
 
         $search = 136;
         $order = Order::loadOrderbyId($search);
-
         $this->assertTrue(sizeof($order) == 1);
     }
 
@@ -29,11 +28,11 @@ class TestOrder extends PHPUnit_Framework_TestCase
             'id' => 134,
             'status' => 1
         ];
-
         $result = Order::updateOrder($params);
-
         $this->assertTrue($result == true); // true => thành công, false => lỗi
     }
+
+
 
 
 

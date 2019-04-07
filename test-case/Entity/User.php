@@ -103,8 +103,7 @@ class User {
         $sql = "select * from users";
         $list = DataProvider::execQuery($sql);
 
-        while ($row = mysqli_fetch_assoc($list)) {
-
+        while ($row = mysqli_fetch_array($list)) {
             $id = $row["ID"];
             $username = $row["Username"];
             $password = $row["Password"];
@@ -112,10 +111,8 @@ class User {
             $email = $row["Email"];
             $dob = strtotime($row["DOB"]);
             $permission = $row["Permission"];
-
             $users = new User($id, $username, $password, $name, $email, $dob, $permission);
             array_push($ret, $users);
-
         }
 
         return $ret;

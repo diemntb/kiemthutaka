@@ -5,6 +5,11 @@ require_once 'Entity/User.php';
 
 class TestUser extends PHPUnit_Framework_TestCase
 {
+    public function testCountUser(){
+        $user = User::loadAllUser();
+        $this->assertTrue(sizeof($user) == 6); //db 6
+    }
+
     public function testLogin(){
         $username = "diem";
         $pass = "1234567"; // mkhau dung 123456
@@ -13,6 +18,7 @@ class TestUser extends PHPUnit_Framework_TestCase
 
         // Nếu true là đăng nhập thành công, false là ko thành công
         $this->assertTrue($user->login() == true, 'Test Login');
+
 
     }
 
