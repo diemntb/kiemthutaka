@@ -46,5 +46,16 @@ class TestUser extends PHPUnit_Framework_TestCase
         $this->assertTrue($user->insert() > 0); // true => thành công, false => lỗi
     }
 
+    public function testSQLInjection(){
+        // ' or '1' = '1
+
+        $username = " ' or '1' = '1 ";
+        $pass = "' or '1' = '1"; // mkhau dung 123456
+
+        $user = new User(0, $username, $pass, '', '', '', 0);
+
+        $this->assertTrue($user->login() == true, 'Test Login');
+
+    }
 
 }
