@@ -19,7 +19,6 @@ class TestUser extends PHPUnit_Framework_TestCase
         // Nếu true là đăng nhập thành công, false là ko thành công
         $this->assertTrue($user->login() == true, 'Test Login');
 
-
     }
 
     public function testDuplicate(){

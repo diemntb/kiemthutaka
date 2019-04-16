@@ -6,11 +6,7 @@
  * and open the template in the editor.
  */
 
-/**
- * Description of DataProvider
- *
- * @author Zenit
- */
+
 define("SERVER", "localhost");
 define("DB", "quanlytaka");
 define("UID", "root");
